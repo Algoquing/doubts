@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style type="text/css" media="all">
+      body{
+        overflow:hidden;
+        margin:0;
+        height:100%;
+        /*background-color:yellow;**/
+      }
+      .beep{
+        display:flex;
+        flex-flow: row;
+        background-color: skyblue;
+        height:100%;
+        width:100%;
+        position:absolute;
+      }
+      div{
+        height:100%;
+        width:100%;
+        display:flex;
+        font-size: 45px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      .buffer-column{flex-flow:column;
+        background-color: lightcyan;
+      }
+      input{
+        min-width: 100%;
+        margin:12px 0 12px 0;
+      }
+    </style>
+    <script type="module">import * as flames from './__target__/flames.js'; window.flames = flames;</script>
+
+</head>
+
+<body>
+<div class="beep">
+  <div>
+    
+  </div>
+  <div class="buffer-column">
+    <div>
+      <div>
+        
+      </div>
+      <div class="buffer-column">
+        <div>
+          
+        </div>
+        <div id='c'>
+          Flames
+        </div>
+        <div>
+          
+        </div>
+      </div>
+      <div>
+        
+      </div>
+    </div>
+    <div>
+      <form action="" method="get" accept-charset="utf-8">
+      <input type="text" name="" id="a" value="" />
+      <input type="text" name="" id="b" value="" />
+      <input type="button" name="" id="" value="go!" onclick="flames.flame();"/>
+      </form>
+    </div>
+    <div>
+      
+    </div>
+  </div>
+  <div>
+    
+  </div>
+</div>
+
+</body>
+
+</html>
