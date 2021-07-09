@@ -1,5 +1,5 @@
-a=list(str(input('a: ')))
-b=list(str(input('b: ')))
+a=list(str(input('a: ')).lower())
+b=list(str(input('b: ')).lower())
 def flame(c,d):
 	flames=list('flames')
 	for x in enumerate(c):
